@@ -1,0 +1,9 @@
+version: '3'
+services:
+  myhostloc:
+    image: vpsls/hostloc-login:latest
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./config.yml:/home/ubuntu/hostloc/config.yml
+      - ./login.py:/home/ubuntu/hostloc/login.py
