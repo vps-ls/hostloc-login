@@ -9,7 +9,7 @@ A Python script for logging into Hostloc daily and visiting other users to earn 
 - According to your account information, modify the settings in `config.yml`.
 - Run ```docker-compose up -d``` to start the srcipt. 
 
-## Two examles of Config.yml
+## Two examles of config.yml
 
 #### No login question
 
